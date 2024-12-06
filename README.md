@@ -11,13 +11,13 @@ This does use some helper classes originally designed by my professor Dr. Yihsan
 CONTROLS
 ----------------------------
 
-SPACE --- Switch collision detection modes (brute force or quadtree)
-UP_ARROW --- Zoom in (you will see the quadtree visuals go away but it is still running unless toggled with above)
-DOWN_ARROW --- Zoom out
-TAB --- Pause
-LEFT_CLICK --- Push force applied at mouse location (can click and hold)
-RIGHT_CLICK --- Pull force applied at mouse lcoation (can cick and hold)
-MINUS --- Slows down time
+- SPACE - Switch collision detection modes (brute force or quadtree)
+- UP_ARROW --- Zoom in (you will see the quadtree visuals go away but it is still running unless toggled with above)
+- DOWN_ARROW --- Zoom out
+- TAB --- Pause
+- LEFT_CLICK --- Push force applied at mouse location (can click and hold)
+- RIGHT_CLICK --- Pull force applied at mouse lcoation (can cick and hold)
+- MINUS --- Slows down time
 
 --------------------------------------
 NOT FULLY IMPLEMENTED
