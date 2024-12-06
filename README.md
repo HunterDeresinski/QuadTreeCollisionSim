@@ -27,3 +27,10 @@ W --- Pan up
 A --- Pan left
 S --- Pan down
 D --- Pan right
+
+--------------------------------------
+HOW TO RUN
+--------------------------------------
+For anyone unsure of how this is being compiled. This project was compiled with g++ into the ./a.out
+
+Run "./a.out" and you should be able to run the project.
