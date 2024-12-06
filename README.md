@@ -22,12 +22,11 @@ CONTROLS
 --------------------------------------
 NOT FULLY IMPLEMENTED
 --------------------------------------
-EQUALS --- "Speeds up" time. (currently broken)
-W --- Pan up
-A --- Pan left
-S --- Pan down
-D --- Pan right
-
+- EQUALS --- "Speeds up" time. (currently broken)
+- W --- Pan up
+- A --- Pan left
+- S --- Pan down
+- D --- Pan right
 --------------------------------------
 HOW TO RUN
 --------------------------------------
