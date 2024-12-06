@@ -10,7 +10,7 @@ The simulation creates a graphical surface populated with multiple circles, each
 **Collision Detection with Visual Feedback:**
 When two circles collide, the collision is visually represented by the circles turning red. This provides a clear, intuitive indication of interactions within the simulation.
 
-**Optimized Collision Handling via Quadtree: **
+**Optimized Collision Handling via Quadtree:**
 To enhance performance, the project employs a quadtree algorithm for spatial partitioning. This significantly reduces computational overhead by restricting collision checks to nearby objects rather than performing exhaustive, brute-force comparisons across all circles in the scene. This optimization is particularly effective for handling thousands of simultaneous objects, making the simulation scalable and efficient.
 
 **Interactive and Visual Appeal:**
