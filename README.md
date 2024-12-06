@@ -1,14 +1,31 @@
-This project was done using SDL in a Fedora VM (WSL). 
+**Project Overview:** 
+---
+This project demonstrates a physics-based simulation utilizing the Simple DirectMedia Layer (SDL) library, implemented within a Fedora virtual machine (VM) environment under Windows Subsystem for Linux (WSL). The primary objective of the project is to simulate dynamic object interactions on a graphical surface, emphasizing efficiency in collision detection for large-scale scenarios.
 
-It makes a surface and places circles on that surface. The circles have a veclocity and collide with one another (denoted by turning red on collision).
-In order to detect thousands of collisions effeciently I used a a quadtree which allows to only check against neighoring circles for collisions rather than brute force checking the entire scene.
+**Key Features**
+---
+**Surface and Dynamic Objects:**
+The simulation creates a graphical surface populated with multiple circles, each assigned an initial velocity vector. These circles move independently and interact dynamically within the environment.
 
-You can actaully see the difference in optimization as well as have some fun with the simulation. Controlls listed below.
+**Collision Detection with Visual Feedback:**
+When two circles collide, the collision is visually represented by the circles turning red. This provides a clear, intuitive indication of interactions within the simulation.
 
-This does use some helper classes originally designed by my professor Dr. Yihsang Liow. The copy right is in the code but a disclaimer here as well. These are particularly in the "Includes" and "Src" folders.
+**Optimized Collision Handling via Quadtree: **
+To enhance performance, the project employs a quadtree algorithm for spatial partitioning. This significantly reduces computational overhead by restricting collision checks to nearby objects rather than performing exhaustive, brute-force comparisons across all circles in the scene. This optimization is particularly effective for handling thousands of simultaneous objects, making the simulation scalable and efficient.
+
+**Interactive and Visual Appeal:**
+Users can observe the effects of optimization in real-time and engage with the simulation using the provided controls, enhancing both educational value and user enjoyment.
+
+**Technical Contributions**
+This project builds on foundational helper classes originally developed by Dr. Yihsang Liow. These classes, included in the project's "Includes" and "Src" folders, streamline the implementation of essential functionalities. Full attribution and copyright information are provided in the code files, and this document also acknowledges their usage as a disclaimer.
+
+**Controls and User Interaction**
+A set of interactive controls enables users to experiment with the simulation, offering insights into the behavior of optimized collision detection systems.
+
+This project not only showcases advanced programming techniques but also serves as an engaging platform for exploring the practical application of algorithms in computer graphics and physics-based simulations.
 
 ----------------------------
-CONTROLS
+**CONTROLS**
 ----------------------------
 
 - SPACE - Switch collision detection modes (brute force or quadtree)
@@ -20,7 +37,7 @@ CONTROLS
 - MINUS --- Slows down time
 
 --------------------------------------
-NOT FULLY IMPLEMENTED
+**NOT FULLY IMPLEMENTED**
 --------------------------------------
 - EQUALS --- "Speeds up" time. (currently broken)
 - W --- Pan up
