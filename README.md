@@ -1,6 +1,6 @@
 **Project Overview:** 
 ---
-This project demonstrates a physics-based simulation utilizing the Simple DirectMedia Layer (SDL) library, implemented within a Fedora virtual machine (VM) environment under Windows Subsystem for Linux (WSL). The primary objective of the project is to simulate dynamic object interactions on a graphical surface, emphasizing efficiency in collision detection for large-scale scenarios.
+This project demonstrates a physics-based simulation utilizing the Simple DirectMedia Layer (SDL) library, implemented within a Fedora virtual machine under Windows Subsystem for Linux (WSL). The primary objective of the project is to simulate dynamic object interactions on a graphical surface, emphasizing efficiency in collision detection for large-scale scenarios.
 
 **Key Features**
 ---
